@@ -1,0 +1,1 @@
+f(x) = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} + \int_{a}^{b} e^{x^2} \, dx
