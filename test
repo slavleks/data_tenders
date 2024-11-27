@@ -1,37 +1,48 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <title>tex texample</title>
-</head>
-<body>
-    <!-- This is comment -->
-    <!-- Put your LaTeX between        y=\int_{0}^{\pi}sin(x)dx                        sign and save the file with .html extension. If you have more than one equation, put each equation in separate enclosing  signs.Open above html file in a browser like Chrome (If everything is set-up correctly and you have an internet connection, then you should see equation)Right click equation and choose "Show Math As" → "MathML code"
-
-
-
-How to get MathML code of LaTeX equation
-
-
-
-Step 2 Copy the MathML code and paste it in Ms Word and simultaneously hit "Ctrl" and "T". Alternatively, you can go to the small Ctrl image at the end of the MathML Code you pasted and select the option "Keep text Only"
-
-
-
-3: Math Autocorrect option of Ms Word (Word 2007 and above)
-
-
-
-Ms Word provides simple and easy to learn Math Autocorrect option to type Math. This option is very much LaTeX. You simple type Math Autocorrect shortcut in equation editor and hit space to get desired math symbol. 
-
-
-
-The list of important Math Autocorrect shortcuts are covered in my blog. Using Math Autocorrect you can type Math symbols and equation including Greek symbols, subscript and superscript, fraction, Math and science Symbols, Integration, Matrix, etc.
-
-
-
-Math Autocorrect Feature of Ms Word in Action
-
-
-Related PostsHow to Insert Matrix in Word: GUI Method and Equation Editor Shortcut for MatrixHow to Type Fraction in Word: Tips and Tricks to Write FractionsHow to insert a tick mark in Ms Word (Mac)How to insert piece-wise function in Ms WordHow to type Augmented Matrix in Word?How to type multiplication & division symbol in WordKeyboard shortcut for Greek alphabet in Microsoft WordLaTeX in Word: Shortcut of typing degree symbol, different types of arrows and other mathematical symbolsMath Autocorrect Shortcut in Ms Word: Equation Editor ShortcutMs Word Shortcut for Degree Celsius (°C)[Shortcut] Make a 4x4 matrix in WordC P GuptaC P Gupta is a YouTuber and Blogger. He is expert in Microsoft Word, Excel and PowerPoint. His YouTube channel @pickupbrain is very popular and has crossed 9.9 Million Views.
-<\body>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mrow>
+    <mi>f</mi>
+    <mo>(</mo>
+    <mi>x</mi>
+    <mo>)</mo>
+    <mo>=</mo>
+    <mfrac>
+      <mrow>
+        <mo>-</mo>
+        <mi>b</mi>
+        <mo>&#xB1;</mo>
+        <msqrt>
+          <mrow>
+            <msup>
+              <mi>b</mi>
+              <mn>2</mn>
+            </msup>
+            <mo>-</mo>
+            <mn>4</mn>
+            <mi>a</mi>
+            <mi>c</mi>
+          </mrow>
+        </msqrt>
+      </mrow>
+      <mrow>
+        <mn>2</mn>
+        <mi>a</mi>
+      </mrow>
+    </mfrac>
+    <mo>+</mo>
+    <msubsup>
+      <mo>&#x222B;</mo>
+      <mi>a</mi>
+      <mi>b</mi>
+    </msubsup>
+    <msup>
+      <mi>e</mi>
+      <msup>
+        <mi>x</mi>
+        <mn>2</mn>
+      </msup>
+    </msup>
+    <mo>&#x202F;</mo>
+    <mi>d</mi>
+    <mi>x</mi>
+  </mrow>
+</math>
